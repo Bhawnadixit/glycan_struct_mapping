@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 import itertools 
-from glycan_tools import string_process
-from glycan_tools import iupac_converter
+from iupac_to_mapping import string_process
+from iupac_to_mapping import iupac_converter
 
     
 class GlycanStructure:

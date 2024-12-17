@@ -1,0 +1,13 @@
+name: glycan_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - MDAnalysis>=2.0.0
+  - pandas>=1.1.0
+  - numpy>=1.18.0
+  - itertools
+  - seaborn>=0.10.0
+  - matplotlib>=3.0.0
+  - IPython>=7.0.0
